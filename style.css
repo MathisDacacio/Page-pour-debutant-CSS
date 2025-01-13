@@ -1,0 +1,129 @@
+/* Main Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 10;
+    padding: 10;
+    background: linear-gradient(to bottom, #f0f4f8, #d9e2ec);
+    color: #333;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1d3557;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #457b9d;
+    margin-bottom: 15px;
+    padding-left: 2%;
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+ul li {
+    background: #a8dadc;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+    background: #457b9d;
+    color: #fff;
+}
+
+/* Link Styles */
+a {
+    color: #1d3557;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e63946;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f1faee;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input, form textarea, form button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #457b9d;
+    box-shadow: 0 0 5px rgba(69, 123, 157, 0.5);
+}
+
+form button {
+    background: #1d3557;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #e63946;
+}
+
+/* Select by ID */
+#Color {
+    color: #e63946;
+    text-decoration: underline;
+}
+
+#Size {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#Where {
+    padding-left: 25%;
+    padding-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    form {
+        padding: 15px;
+    }
+}

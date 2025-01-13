@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="coffe.css">
+    <title>Page pour débutant CSS</title>
+</head>
+<body>
+    <h1>Bienvenue sur ma page HTML</h1>
+    <h2>Voici une liste de choses à faire :</h2>
+    <ul>
+        <li>Apprendre l'HTML</li>
+        <li>Visiter mon linkedin: <span > <a href="https://www.linkedin.com/in/mathis-dacacio-298a25293/" target="_blank"> Mon Linkedin</a></span></li>
+        <li>Me proposer un stage !</li>
+    </ul>
+    <h2>Formulaire de contact :</h2>
+    <form action="#" method="post">
+        <label for="name">Nom *:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email *:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <h2>Le CSS c'est quoi :</h2>
+      <p> Le CSS est essentiel pour gérer le style des pages web, qu'il s'agisse de définir les <span id="Color">couleurs</span>, les <span id="Size">tailles</span>, ou les positions des éléments.</p>
+      <p id="Where">Le CSS est partout.</p>
+    <h2>Le CSS c'est aussi :</h2>
+    <div class="loader">
+        <span class="loader__element"></span>
+        <span class="loader__element"></span>
+        <span class="loader__element"></span>
+    </div>
+
+    <h2>Et ça :</h2>
+    <div class="container">
+        <div class="coffee-header">
+          <div class="coffee-header__buttons coffee-header__button-one"></div>
+          <div class="coffee-header__buttons coffee-header__button-two"></div>
+          <div class="coffee-header__display"></div>
+          <div class="coffee-header__details"></div>
+        </div>
+        <div class="coffee-medium">
+          <div class="coffe-medium__exit"></div>
+          <div class="coffee-medium__arm"></div>
+          <div class="coffee-medium__liquid"></div>
+          <div class="coffee-medium__smoke coffee-medium__smoke-one"></div>
+          <div class="coffee-medium__smoke coffee-medium__smoke-two"></div>
+          <div class="coffee-medium__smoke coffee-medium__smoke-three"></div>
+          <div class="coffee-medium__smoke coffee-medium__smoke-for"></div>
+          <div class="coffee-medium__cup"></div>
+        </div>
+        <div class="coffee-footer"></div>
+    </div>
+</body>
+</html>
